@@ -1,78 +1,76 @@
 {
 	"formatVersion" : 1,
-	"passTypeIdentifier" : "pass.au.com.timoliver.businesscard.dank",
+	"passTypeIdentifier" : "pass.com.walterzhu.namecard",
 	"serialNumber" : "XD",
-	"teamIdentifier" : "**INSERT YOUR TEAM IDENTIFIER CODE HERE**",
+	"teamIdentifier" : "9F7KVX53DP",
 	"barcodes" : [
 		{
-		    "message" : "https://downloads.timoliver.com.au/tim-businesscard.pkpass",
+		    "message" : "https://www.walterzhu.com/WalterCV.pdf",
 		    "format" : "PKBarcodeFormatQR",
 		    "messageEncoding" : "iso-8859-1"
 		}
 	],
-	"organizationName" : "Tim Oliver",
-	"description" : "Tim Oliver",
+	"organizationName" : "Walter Zhu",
+	"description" : "Walter Zhu",
 	"foregroundColor" : "rgb(255, 255, 255)",
-	"backgroundColor" : "rgb(20, 20, 20)",
-	"labelColor" : "rgb(190, 57, 57)",
+	"backgroundColor" : "rgb(56, 55, 136)",
+	"labelColor" : "rgb(252, 231, 92)",
 	"storeCard" : { 
 		"headerFields" : [
 			{
 				"key" : "header-name",
 				"textAlignment" : "PKTextAlignmentRight",
-				"label" : "PROFESSION",
-				"value" : "Hanzo Main"
+				"label" : "Institution",
+				"value" : "Peking University"
 			}
 		],
 		"auxiliaryFields" : [
 			{
 				"key" : "blog",
-				"label" : "BLOG",
-				"value" : "http://timoliver.blog",
+				"label" : "Website",
+				"value" : "https://www.walterzhu.com",
 				"textAlignment" : "PKTextAlignmentLeft"
 			},
 			{
-				"key" : "twitter",
-				"label" : "TWITTER",
-				"value" : "@TimOliverAU",
+				"key" : "mail",
+				"label" : "Mail",
+				"value" : "walterzhu@pku.edu.cn",
 				"textAlignment" : "PKTextAlignmentRight"
 			}
 		],
 		"backFields" : [ 
 			{
 				"key" : "back-name",
-				"label" : "NAME",
-				"value" : "Tim Oliver"
+				"label" : "Name",
+				"value" : "Walter Zhu"
 			},
+
 			{
-				"key" : "back-role",
-				"label" : "OCCUPATION",
-				"value" : "CMO - Chief Memes Officer"
+				"key" : "back-major",
+				"label" : "Major",
+				"attributedValue" : "Computer Science & Economics"
 			},
+
 			{
-				"key" : "back-email",
-				"label" : "EMAIL",
-				"attributedValue" : "<a href='mailto:info@timoliver.com.au'>info@timoliver.com.au</a>"
+				"key" : "back-ri",
+				"label" : "Research Interests",
+				"value" : "Computer Vision, Deep Learning"
 			},
+			
 			{
-				"key" : "back-blog",
-				"label" : "BLOG",
-				"attributedValue" : "<a href='http://timoliver.blog'>http://timoliver.blog</a>"
-			},
-			{
-				"key" : "back-twitter",
-				"label" : "TWITTER",
-				"attributedValue" : "<a href='http://twitter.com/timoliverau'>@TimOliverAU</a>"
-			},	
-			{
-				"key" : "back-instagram",
-				"label" : "INSTAGRAM",
-				"attributedValue" : "<a href='http://instagram.com/timoliver'>@TimOliver</a>"
+				"key" : "back-linkedin",
+				"label" : "LinkedIn",
+				"attributedValue" : "<a href='https://www.linkedin.com/in/walterzhu/'>@Walter Zhu</a>"
 			},	
 			{
 				"key" : "back-github",
-				"label" : "GITHUB",
-				"attributedValue" : "<a href='http://github.com/timoliver'>@TimOliver</a>"
+				"label" : "GitHub",
+				"attributedValue" : "<a href='https://github.com/Walter0807'>@Walter0807</a>"
+			},
+			{
+				"key" : "back-email",
+				"label" : "E-mail",
+				"attributedValue" : "<a href='mailto:walterzhu@pku.edu.cn'>walterzhu@pku.edu.cn</a>"
 			}
 		]
 	}
